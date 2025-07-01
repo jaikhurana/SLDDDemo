@@ -1,0 +1,3 @@
+# This command sets all SLDD files as binary. On top of that it says don't do the default diff, check the content type and do the diff.
+# For merge use mlAutoMerge. 
+*.sldd binary diff merge=mlAutoMerge
